@@ -91,11 +91,13 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
+  display: inline-block;
   color: rgb(17, 11, 135);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
   text-decoration: underline;
+  text-align: center;
   margin-bottom: 8px;
   text-shadow: -0 -1px 0 #ffffff, 0 -1px 0 #ffffff, -0 1px 0 #ffffff,
     0 1px 0 #ffffff, -1px -0 0 #ffffff, 1px -0 0 #ffffff, -1px 0 0 #ffffff,
@@ -103,7 +105,7 @@ export const Link = styled.a`
     1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff,
     -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
   b {
-    color: rgb(208, 237, 255);
+    color: rgb(31, 36, 39);
     text-shadow: 0 0px 0 #ffffff;
   }
 `;
