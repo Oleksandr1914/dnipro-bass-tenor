@@ -14,7 +14,7 @@ export const Container = styled.div`
   min-height: 100vh;
   margin: 0 auto;
   padding: 18px 18px;
-  padding-bottom: 128px;
+  padding-bottom: 210px;
 
   ${device.tablet} {
     width: ${size.tablet};
